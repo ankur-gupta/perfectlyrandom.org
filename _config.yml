@@ -1,6 +1,6 @@
 # Site wide configuration (available as site.variable_name)
 title: Perfectly Random
-description: "machine learning and stuff"
+description: "machine learning, probability, and programming"
 url: https://www.perfectlyrandom.org
 author: Ankur Gupta
 
@@ -8,8 +8,8 @@ author: Ankur Gupta
 # (leave blank to disable the corresponding sharing button)
 owner:
   github: ankur-gupta
-  twitter: ankurIO
-  linkedin: ankurguptawisc
+  twitter: _ankurai
+  linkedin: ankurai
 
 attribution:
   theme_name: Lagrange
