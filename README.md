@@ -1,4 +1,4 @@
-# [perfectlyrandom.org](https://www.perfectlyrandom.org).
+# [perfectlyrandom.org](https://www.perfectlyrandom.org)
 This website is made using a Jekyll theme Laplacian (https://github.com/ankur-gupta/laplacian),
 which in turn, is based on the Lagrange theme (https://lenpaul.github.io/Lagrange/).
 
