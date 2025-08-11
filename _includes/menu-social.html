@@ -1,21 +1,27 @@
 {% if site.owner.github %}
     <a href="https://www.github.com/{{ site.owner.github }}" target="_blank">
-        <i class="social-icon transition fab fa-github"></i>
+        <i class="social-icon transition fa-brands fa-github"></i>
+    </a>
+{% endif %}
+
+{% if site.owner.bluesky %}
+    <a href="https://bsky.app/profile/{{ site.owner.bluesky }}" target="_blank">
+        <i class="social-icon transition fa-brands fa-bluesky"></i>
     </a>
 {% endif %}
 
 {% if site.owner.linkedin %}
     <a href="https://www.linkedin.com/in/{{ site.owner.linkedin }}" target="_blank">
-        <i class="social-icon transition fab fa-linkedin"></i>
+        <i class="social-icon transition fa-brands fa-linkedin"></i>
     </a>
 {% endif %}
 
 {% if site.owner.twitter %}
     <a href="https://twitter.com/{{ site.owner.twitter }}" target="_blank">
-        <i class="social-icon transition fab fa-twitter"></i>
+        <i class="social-icon transition fa-brands fa-twitter"></i>
     </a>
 {% endif %}
 
 <a href="{{ site.url }}/feed.xml" target="_blank">
-    <i class="social-icon transition fas fa-rss-square"></i>
+    <i class="social-icon transition fa-solid fa-square-rss"></i>
 </a>

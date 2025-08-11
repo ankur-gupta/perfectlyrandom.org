@@ -3,57 +3,74 @@
 }
 
 .transition {
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
-.fa-github:hover, .fa-github:focus {
+.fa-github:hover,
+.fa-github:focus {
     color: #343434;
 }
 
-.fa-linkedin:hover, .fa-linkedin:focus {
+.fa-linkedin:hover,
+.fa-linkedin:focus {
     color: #0073a4;
 }
 
-.fa-facebook:hover, .fa-facebook:focus {
+.fa-facebook:hover,
+.fa-facebook:focus {
     color: #3d5b99;
 }
 
-.fa-reddit:hover, .fa-reddit:focus {
+.fa-reddit:hover,
+.fa-reddit:focus {
     color: #ff4500;
 }
 
-.fa-google-plus:hover, .fa-google-plus:focus {
+.fa-google-plus:hover,
+.fa-google-plus:focus {
     color: #e64a41;
 }
 
-.fa-pinterest:hover, .fa-pinterest:focus {
+.fa-pinterest:hover,
+.fa-pinterest:focus {
     color: #bd081c;
 }
 
-.fa-medium:hover, .fa-medium:focus {
-    color: #00AB6C;
+.fa-medium:hover,
+.fa-medium:focus {
+    color: #00ab6c;
 }
 
-.fa-codepen:hover, .fa-codepen:focus {
+.fa-codepen:hover,
+.fa-codepen:focus {
     color: black;
 }
 
-.fa-rss-square:hover, .fa-rss-square:focus {
+.fa-square-rss:hover,
+.fa-square-rss:focus {
     color: #ff6600;
 }
 
-.fa-instagram:hover, .fa-instagram:focus {
+.fa-instagram:hover,
+.fa-instagram:focus {
     color: #375989;
 }
 
-.fa-twitter:hover, .fa-twitter:focus {
+.fa-twitter:hover,
+.fa-twitter:focus {
     color: #00aced;
 }
 
-.fa-envelope:hover, .fa-envelope:focus {
+.fa-bluesky:hover,
+.fa-bluesky:focus {
+    color: #1185fe;
+}
+
+.fa-envelope:hover,
+.fa-envelope:focus {
     color: #b23121;
 }

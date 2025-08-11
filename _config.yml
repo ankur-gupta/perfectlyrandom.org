@@ -8,8 +8,9 @@ author: Ankur Gupta
 # (leave blank to disable the corresponding sharing button)
 owner:
   github: ankur-gupta
-  twitter: _ankurai
+  bluesky: ankurgupta.bsky.social
   linkedin: ankurai
+  twitter: _ankurai
 
 attribution:
   theme_name: Lagrange
