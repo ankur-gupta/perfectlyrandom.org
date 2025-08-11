@@ -21,20 +21,19 @@ layout: default
     {% else %}
         {{ site.author }}
     {% endif %}
-    {% if site.disqus_shortname %}
-        {% if page.comments %}
-            | <i class="far fa-comments" aria-hidden="true"></i>
-            <a href="{{ site.url }}{{ page.url }}index.html#disqus_thread" data-disqus-identifier="{% if post.identifier %}{{post.identifier}}{% else %}{{post.url}}{% endif %}"></a>
-        {% endif %}
-    {% endif %}
+    
+    <!-- {% if page.comments %}
+        | <i class="far fa-comments" aria-hidden="true"></i>
+        <a href="{{ site.url }}{{ page.url }}index.html#disqus_thread" data-disqus-identifier="{% if post.identifier %}{{post.identifier}}{% else %}{{post.url}}{% endif %}"></a>
+    {% endif %} -->
+    
 </span>
 
 {{ content }}
 
 {% include sharing-social.html %}
 
-{% if site.disqus_shortname %}
-    {% if page.comments %}
-        {% include disqus.html %}
-    {% endif %}
+{% if page.comments %}
+    {% include giscus.html %}
 {% endif %}
+
