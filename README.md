@@ -33,3 +33,27 @@ bundle install
 ```shell
 bundle exec jekyll serve
 ```
+
+## Building a new jekyll website
+Based on [official instructions](https://jekyllrb.com/).
+
+```shell
+gem install bundler jekyll
+
+# Add the output of `ruby -e 'puts Gem.bindir'` to your PATH
+ruby -e 'puts Gem.bindir'  # /opt/homebrew/lib/ruby/gems/3.4.0/bin
+# Add opt/homebrew/lib/ruby/gems/3.4.0/bin to PATH so that jekyll executable is available
+
+jekyll new my-awesome-site
+cd my-awesome-site
+tree
+# .
+# ├── _config.yml
+# ├── _posts
+# │   └── 2025-08-10-welcome-to-jekyll.markdown
+# ├── 404.html
+# ├── about.markdown
+# ├── Gemfile
+# ├── Gemfile.lock
+# └── index.markdown
+```

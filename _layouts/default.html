@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    {% include header.html %}
+    <body>
+        <div class="overall-container">
+            <header class="masthead">
+                <h1 class="masthead-title">
+                    <a href="{{ site.url }}">{{ site.title }}</a>
+                </h1>
+                <span class="masthead-subtitle">{{ site.description }}</span>
+                {% include menu.html %}
+            </header>
+            <div class="post-container">
+                {{ content }}
+            </div>
+            {% include footer.html %}
+        </div>
+    </body>
+</html>

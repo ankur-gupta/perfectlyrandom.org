@@ -1,0 +1,14 @@
+All original content (including text and images) belongs to Ankur Gupta and is not
+licensed for reproduction. This original content includes these files and folders:
+
+* `_posts`
+* `_drafts`
+* `assets`
+
+The code for the layout and design of the website are based on the
+Jekyll theme Laplacian (https://github.com/ankur-gupta/laplacian), which in turn, is
+based on the Lagrange theme (https://lenpaul.github.io/Lagrange/). Both Laplacian and Lagrange
+are available for reuse under the MIT License as specified in their respective LICENSE files:
+
+* [License for Laplacian](https://github.com/ankur-gupta/laplacian/blob/gh-pages/LICENSE)
+* [License for Lagrange](https://github.com/LeNPaul/Lagrange/blob/gh-pages/LICENSE.md)
