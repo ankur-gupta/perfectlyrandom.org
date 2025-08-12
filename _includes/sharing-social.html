@@ -1,9 +1,21 @@
 <div class="sharing-social">
     <span>Share on</span>
-    <a href="https://bsky.app/intent/compose?text={{ page.title | url_encode }}%0A{{ site.url }}{{ page.url }}" target="_blank"><i class="sharing-social-icon transition fa-brands fa-bluesky" aria-hidden="true"></i></a>
-    <a href="http://www.linkedin.com/shareArticle?url={{ site.url }}{{ page.url }}&title={{ page.title }}" target="_blank"><i class="sharing-social-icon transition fa-brands fa-linkedin" aria-hidden="true"></i></a>
-    <a href="mailto:?subject=Check this out&amp;body={{ page.title }} ({{ site.url }}{{ page.url }})"><i class="sharing-social-icon transition fa-solid fa-envelope" aria-hidden="true"></i></a>
-    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" target="_blank"><i class="sharing-social-icon transition fa-brands fa-x-twitter" aria-hidden="true"></i></a>
-    <a href="http://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}"" target="_blank"><i class="sharing-social-icon transition fa-brands fa-reddit" aria-hidden="true"></i></a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}&amp;title={{ page.title }}" target="_blank"><i class="sharing-social-icon transition fa-brands fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://bsky.app/intent/compose?text={{ page.title | url_encode }}%0A{{ site.url }}{{ page.url }}" target="_blank">
+        <i class="sharing-social-icon transition fa-brands fa-bluesky" aria-hidden="true"></i>
+    </a>
+    <a href="http://www.linkedin.com/shareArticle?url={{ site.url }}{{ page.url }}&title={{ page.title | url_encode }}" target="_blank">
+        <i class="sharing-social-icon transition fa-brands fa-linkedin" aria-hidden="true"></i>
+    </a>
+    <a href="mailto:?subject={{ 'Check this out' | url_encode | replace: '+', '%20' }}&amp;body={{ page.title | url_encode | replace: '+', '%20' }}%20({{ site.url }}{{ page.url }})">
+      <i class="sharing-social-icon transition fa-solid fa-envelope" aria-hidden="true"></i>
+    </a>
+    <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank">
+        <i class="sharing-social-icon transition fa-brands fa-x-twitter" aria-hidden="true"></i>
+    </a>
+    <a href="http://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title | url_encode }}"" target="_blank">
+        <i class="sharing-social-icon transition fa-brands fa-reddit" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}&amp;title={{ page.title | url_encode }}" target="_blank">
+        <i class="sharing-social-icon transition fa-brands fa-facebook" aria-hidden="true"></i>
+    </a>
 </div>

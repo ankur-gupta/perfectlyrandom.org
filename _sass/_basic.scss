@@ -1,8 +1,8 @@
 /* Overall */
 html {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: 20px;
-    color: $black
+    color: $black;
 }
 
 @media (max-width: 30rem) {
@@ -11,8 +11,13 @@ html {
     }
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Alegreya Sans SC', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Alegreya Sans SC", sans-serif;
     text-align: left;
 }
 
@@ -24,7 +29,8 @@ a {
     color: $black;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     color: lighten($black, 50%);
 }
 
@@ -33,7 +39,6 @@ img {
     height: auto;
     border-radius: 5px;
 }
-
 
 /* Accessories */
 blockquote {
@@ -57,9 +62,9 @@ blockquote {
 }
 
 @media (max-width: 768px) {
-  .overall-container {
-    width: 90vw;
-  }
+    .overall-container {
+        width: 90vw;
+    }
 }
 
 .post-container {
@@ -69,7 +74,7 @@ blockquote {
 
 /* Masthead */
 .masthead {
-    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     margin-bottom: 4rem;
@@ -84,12 +89,13 @@ blockquote {
     text-decoration: none;
 }
 
-.masthead-title a:hover, .masthead-title a:focus {
+.masthead-title a:hover,
+.masthead-title a:focus {
     color: lighten($black, 25%);
 }
 
 .masthead-subtitle {
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: "Quattrocento Sans", sans-serif;
     font-size: 0.65rem;
     color: lighten($black, 50%);
 }
@@ -100,20 +106,18 @@ blockquote {
     }
 }
 
-
 /* Thumbnail images */
 .thumbnail-container {
-  max-width: 100%;
-  overflow: hidden;
-  border-radius: 5px;
-  margin-bottom: 1.5rem;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
 }
 
 .thumbnail-container img {
     margin-top: -11.5%;
     margin-bottom: -11.5%;
 }
-
 
 /* Menu */
 .masthead-menu {
@@ -146,7 +150,7 @@ blockquote {
 
 /* Footer */
 .footer {
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: "Quattrocento Sans", sans-serif;
     text-align: center;
     margin: 2rem;
 }
@@ -174,8 +178,9 @@ blockquote {
     color: lighten($black, 50%);
 }
 
-.footer-text a:hover, .footer-text a:focus {
-    color: $black
+.footer-text a:hover,
+.footer-text a:focus {
+    color: $black;
 }
 
 /* List of posts */
@@ -191,7 +196,7 @@ blockquote {
 
 .dateline {
     display: block;
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: "Quattrocento Sans", sans-serif;
     font-size: 0.65rem;
     color: lighten($black, 60%);
     margin-top: 0.3rem;
@@ -203,11 +208,11 @@ blockquote {
     color: lighten($black, 60%);
 }
 
-.dateline a:hover, .list-of-posts-date a:focus {
+.dateline a:hover,
+.list-of-posts-date a:focus {
     text-decoration: none;
     color: $black;
 }
-
 
 /* Posts */
 .post-title {
@@ -231,16 +236,20 @@ blockquote {
 }
 
 .sharing-social span {
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: "Quattrocento Sans", sans-serif;
     font-size: 0.8rem;
     color: lighten($black, 50%);
     vertical-align: middle;
 }
 
+.sharing-social a {
+    text-decoration: none;
+}
+
 .sharing-social-icon {
-     font-size: 0.8rem;
-     margin-left: 0.5rem;
-     vertical-align: middle;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    vertical-align: middle;
 }
 
 /* Bites */
